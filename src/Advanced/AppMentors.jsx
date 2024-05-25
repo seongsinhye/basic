@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import personReducer from './reducer/person-reducer';
+import personReducer from '../reducer/person-reducer';
 
 export default function AppMentor() {
   const [person, dispatch] = useReducer(personReducer, initialPerson);
